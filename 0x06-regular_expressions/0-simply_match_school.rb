@@ -1,8 +1,2 @@
 #!/usr/bin/env ruby
-
-# Get the argument
-arg = ARGV[0]
-regex = /School/
-
-# Match
-puts arg.scan(regex)
+puts ARGV[0].scan(/School/).join
